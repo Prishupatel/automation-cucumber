@@ -37,6 +37,7 @@ public class ManageDriver {
             driver = new FirefoxDriver();
         } else if (browser.equalsIgnoreCase("ie")) {
             WebDriverManager.iedriver().setup();
+            log.info("Launching IE");
             driver = new InternetExplorerDriver();
         } else {
             System.out.println("Wrong browser name");

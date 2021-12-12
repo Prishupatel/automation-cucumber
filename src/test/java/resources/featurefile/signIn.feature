@@ -34,7 +34,7 @@ Feature: SignIn Page
       | username               | pass   |
       | primetest123@gmail.com | 123456 |
 
-  @smoke
+
   Scenario Outline: Verify user should Logout successfully
     Given I am on home page
     When I click on sign in link

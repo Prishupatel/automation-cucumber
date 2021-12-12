@@ -59,4 +59,15 @@ public class SignInSteps {
     public void iClickOnSignoutButton() {
         new SignInPage().clickOnSignOutButton();
     }
+
+    @And("^I enter email for create account \"([^\"]*)\"$")
+    public void iEnterEmailForCreateAccount(String email)  {
+        new SignInPage().enterEmailfornewacountcreation(email);
+
+    }
+
+    @And("^I click on create new account button$")
+    public void iClickOnCreateNewAccountButton() {
+        new SignInPage().clickOnCreateAnAccountButton();
+    }
 }

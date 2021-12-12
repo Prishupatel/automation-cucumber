@@ -6,7 +6,418 @@
         "before": [
           {
             "result": {
-              "duration": 7048025500,
+              "duration": 6210975300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Verify the error message with invalid credentials",
+        "description": "",
+        "id": "signin-page;verify-the-error-message-with-invalid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 829702700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 157199301,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am on home page",
+            "match": {
+              "location": "SignInSteps.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1371117300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on sign in link",
+            "match": {
+              "location": "SignInSteps.iClickOnSignInLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 116216500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter username \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 18
+                }
+              ],
+              "location": "SignInSteps.iEnterUsername(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 153542401,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter password \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456",
+                  "offset": 18
+                }
+              ],
+              "location": "SignInSteps.iEnterPassword(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 703711300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on signin button",
+            "match": {
+              "location": "SignInSteps.iClickOnSigninButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43474400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should see the error message\"An email address required.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "An email address required.",
+                  "offset": 31
+                }
+              ],
+              "location": "SignInSteps.iShouldSeeTheErrorMessage(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3489544701,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Verify the error message with invalid credentials",
+        "description": "",
+        "id": "signin-page;verify-the-error-message-with-invalid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1265557200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 26101,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am on home page",
+            "match": {
+              "location": "SignInSteps.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3970877601,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on sign in link",
+            "match": {
+              "location": "SignInSteps.iClickOnSignInLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 201560201,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter username \"abcd@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abcd@gmail.com",
+                  "offset": 18
+                }
+              ],
+              "location": "SignInSteps.iEnterUsername(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 123100599,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter password \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 18
+                }
+              ],
+              "location": "SignInSteps.iEnterPassword(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1115500700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on signin button",
+            "match": {
+              "location": "SignInSteps.iClickOnSigninButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32534200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should see the error message\"Password is required.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password is required.",
+                  "offset": 31
+                }
+              ],
+              "location": "SignInSteps.iShouldSeeTheErrorMessage(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3681436600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Verify the error message with invalid credentials",
+        "description": "",
+        "id": "signin-page;verify-the-error-message-with-invalid-credentials;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1309394299,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 56000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am on home page",
+            "match": {
+              "location": "SignInSteps.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2523232399,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on sign in link",
+            "match": {
+              "location": "SignInSteps.iClickOnSignInLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 147963100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter username \"adfdfgfg\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "adfdfgfg",
+                  "offset": 18
+                }
+              ],
+              "location": "SignInSteps.iEnterUsername(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 187544000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter password \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456",
+                  "offset": 18
+                }
+              ],
+              "location": "SignInSteps.iEnterPassword(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1525376200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on signin button",
+            "match": {
+              "location": "SignInSteps.iClickOnSigninButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43473100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should see the error message\"Invalid email address.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Invalid email address.",
+                  "offset": 31
+                }
+              ],
+              "location": "SignInSteps.iShouldSeeTheErrorMessage(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4355888900,
               "status": "passed"
             },
             "match": {
@@ -15,13 +426,13 @@
           }
         ],
         "line": 22,
-        "name": "verify user should add product to the cart successfully",
+        "name": "Verify the error message with invalid credentials",
         "description": "",
-        "id": "women-category-page;verify-user-should-add-product-to-the-cart-successfully;;2",
+        "id": "signin-page;verify-the-error-message-with-invalid-credentials;;5",
         "after": [
           {
             "result": {
-              "duration": 908912600,
+              "duration": 1312427300,
               "status": "passed"
             },
             "match": {
@@ -34,10 +445,10 @@
         "steps": [
           {
             "result": {
-              "duration": 154077300,
+              "duration": 31799,
               "status": "passed"
             },
-            "line": 11,
+            "line": 10,
             "name": "I am on home page",
             "match": {
               "location": "SignInSteps.iAmOnHomePage()"
@@ -46,31 +457,31 @@
           },
           {
             "result": {
-              "duration": 1514075400,
+              "duration": 2802101800,
               "status": "passed"
             },
-            "line": 12,
-            "name": "I click on women tab",
+            "line": 11,
+            "name": "I click on sign in link",
             "match": {
-              "location": "HomePageSteps.iClickOnWomenTab()"
+              "location": "SignInSteps.iClickOnSignInLink()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 22292999400,
+              "duration": 184937999,
               "status": "passed"
             },
-            "line": 13,
-            "name": "I select one \"Blouse\"",
+            "line": 12,
+            "name": "I enter username \"abcd@gmail.com\"",
             "match": {
               "arguments": [
                 {
-                  "val": "Blouse",
-                  "offset": 14
+                  "val": "abcd@gmail.com",
+                  "offset": 18
                 }
               ],
-              "location": "ProductPageSteps.iSelectOne(String)"
+              "location": "SignInSteps.iEnterUsername(String)"
             },
             "matchedColumns": [
               0
@@ -79,19 +490,19 @@
           },
           {
             "result": {
-              "duration": 1226260300,
+              "duration": 169013799,
               "status": "passed"
             },
-            "line": 14,
-            "name": "I enter quantity \"2\"",
+            "line": 13,
+            "name": "I enter password \"123456\"",
             "match": {
               "arguments": [
                 {
-                  "val": "2",
+                  "val": "123456",
                   "offset": 18
                 }
               ],
-              "location": "ProductPageSteps.iEnterQuantity(String)"
+              "location": "SignInSteps.iEnterPassword(String)"
             },
             "matchedColumns": [
               1
@@ -100,75 +511,42 @@
           },
           {
             "result": {
-              "duration": 175586300,
+              "duration": 1972911199,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on signin button",
+            "match": {
+              "location": "SignInSteps.iClickOnSigninButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37749301,
               "status": "passed"
             },
             "line": 15,
-            "name": "I select size \"M\"",
+            "name": "I should see the error message\"Authentication failed.\"",
             "match": {
               "arguments": [
                 {
-                  "val": "M",
-                  "offset": 15
+                  "val": "Authentication failed.",
+                  "offset": 31
                 }
               ],
-              "location": "ProductPageSteps.iSelectSize(String)"
+              "location": "SignInSteps.iShouldSeeTheErrorMessage(String)"
             },
             "matchedColumns": [
               2
             ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 92009700,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "I select color \"White\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "White",
-                  "offset": 16
-                }
-              ],
-              "location": "ProductPageSteps.iSelectColor(String)"
-            },
-            "matchedColumns": [
-              3
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 86758200,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "I click on add to cart",
-            "match": {
-              "location": "ProductPageSteps.iClickOnAddToCart()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 968119700,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "I close popup",
-            "match": {
-              "location": "ProductPageSteps.iClosePopup()"
-            },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "line": 9,
-            "name": "@smoke"
+            "line": 8,
+            "name": "@regression"
           }
         ]
       },
@@ -176,7 +554,7 @@
         "before": [
           {
             "result": {
-              "duration": 3574111100,
+              "duration": 3347581201,
               "status": "passed"
             },
             "match": {
@@ -184,14 +562,14 @@
             }
           }
         ],
-        "line": 23,
-        "name": "verify user should add product to the cart successfully",
+        "line": 35,
+        "name": "Verify user should login successfully with valid credentials",
         "description": "",
-        "id": "women-category-page;verify-user-should-add-product-to-the-cart-successfully;;3",
+        "id": "signin-page;verify-user-should-login-successfully-with-valid-credentials;;2",
         "after": [
           {
             "result": {
-              "duration": 903119400,
+              "duration": 804359000,
               "status": "passed"
             },
             "match": {
@@ -204,10 +582,10 @@
         "steps": [
           {
             "result": {
-              "duration": 32500,
+              "duration": 21500,
               "status": "passed"
             },
-            "line": 11,
+            "line": 26,
             "name": "I am on home page",
             "match": {
               "location": "SignInSteps.iAmOnHomePage()"
@@ -216,31 +594,31 @@
           },
           {
             "result": {
-              "duration": 1537131800,
+              "duration": 1496302500,
               "status": "passed"
             },
-            "line": 12,
-            "name": "I click on women tab",
+            "line": 27,
+            "name": "I click on sign in link",
             "match": {
-              "location": "HomePageSteps.iClickOnWomenTab()"
+              "location": "SignInSteps.iClickOnSignInLink()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 21599289100,
+              "duration": 172406600,
               "status": "passed"
             },
-            "line": 13,
-            "name": "I select one \"Printed Dress\"",
+            "line": 28,
+            "name": "I enter username \"primetest123@gmail.com\"",
             "match": {
               "arguments": [
                 {
-                  "val": "Printed Dress",
-                  "offset": 14
+                  "val": "primetest123@gmail.com",
+                  "offset": 18
                 }
               ],
-              "location": "ProductPageSteps.iSelectOne(String)"
+              "location": "SignInSteps.iEnterUsername(String)"
             },
             "matchedColumns": [
               0
@@ -249,19 +627,19 @@
           },
           {
             "result": {
-              "duration": 1222534900,
+              "duration": 134468201,
               "status": "passed"
             },
-            "line": 14,
-            "name": "I enter quantity \"3\"",
+            "line": 29,
+            "name": "I enter password \"123456\"",
             "match": {
               "arguments": [
                 {
-                  "val": "3",
+                  "val": "123456",
                   "offset": 18
                 }
               ],
-              "location": "ProductPageSteps.iEnterQuantity(String)"
+              "location": "SignInSteps.iEnterPassword(String)"
             },
             "matchedColumns": [
               1
@@ -270,75 +648,33 @@
           },
           {
             "result": {
-              "duration": 141398600,
+              "duration": 21614763900,
               "status": "passed"
             },
-            "line": 15,
-            "name": "I select size \"L\"",
+            "line": 30,
+            "name": "I click on signin button",
             "match": {
-              "arguments": [
-                {
-                  "val": "L",
-                  "offset": 15
-                }
-              ],
-              "location": "ProductPageSteps.iSelectSize(String)"
-            },
-            "matchedColumns": [
-              2
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 95000500,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "I select color \"Orange\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Orange",
-                  "offset": 16
-                }
-              ],
-              "location": "ProductPageSteps.iSelectColor(String)"
-            },
-            "matchedColumns": [
-              3
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 91890000,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "I click on add to cart",
-            "match": {
-              "location": "ProductPageSteps.iClickOnAddToCart()"
+              "location": "SignInSteps.iClickOnSigninButton()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 884627700,
+              "duration": 56268201,
               "status": "passed"
             },
-            "line": 18,
-            "name": "I close popup",
+            "line": 31,
+            "name": "I can see signout link",
             "match": {
-              "location": "ProductPageSteps.iClosePopup()"
+              "location": "SignInSteps.iCanSeeSignoutLink()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "line": 9,
-            "name": "@smoke"
+            "line": 24,
+            "name": "@regression"
           }
         ]
       },
@@ -346,7 +682,7 @@
         "before": [
           {
             "result": {
-              "duration": 3437292700,
+              "duration": 4200830799,
               "status": "passed"
             },
             "match": {
@@ -354,14 +690,14 @@
             }
           }
         ],
-        "line": 24,
-        "name": "verify user should add product to the cart successfully",
+        "line": 49,
+        "name": "Verify user should Logout successfully",
         "description": "",
-        "id": "women-category-page;verify-user-should-add-product-to-the-cart-successfully;;4",
+        "id": "signin-page;verify-user-should-logout-successfully;;2",
         "after": [
           {
             "result": {
-              "duration": 923552800,
+              "duration": 846764700,
               "status": "passed"
             },
             "match": {
@@ -374,10 +710,10 @@
         "steps": [
           {
             "result": {
-              "duration": 71500,
+              "duration": 28600,
               "status": "passed"
             },
-            "line": 11,
+            "line": 39,
             "name": "I am on home page",
             "match": {
               "location": "SignInSteps.iAmOnHomePage()"
@@ -386,31 +722,31 @@
           },
           {
             "result": {
-              "duration": 1425150100,
+              "duration": 2069832100,
               "status": "passed"
             },
-            "line": 12,
-            "name": "I click on women tab",
+            "line": 40,
+            "name": "I click on sign in link",
             "match": {
-              "location": "HomePageSteps.iClickOnWomenTab()"
+              "location": "SignInSteps.iClickOnSignInLink()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 21024937400,
+              "duration": 167403100,
               "status": "passed"
             },
-            "line": 13,
-            "name": "I select one \"Printed Chiffon Dress\"",
+            "line": 41,
+            "name": "I enter username \"primetest123@gmail.com\"",
             "match": {
               "arguments": [
                 {
-                  "val": "Printed Chiffon Dress",
-                  "offset": 14
+                  "val": "primetest123@gmail.com",
+                  "offset": 18
                 }
               ],
-              "location": "ProductPageSteps.iSelectOne(String)"
+              "location": "SignInSteps.iEnterUsername(String)"
             },
             "matchedColumns": [
               0
@@ -419,19 +755,19 @@
           },
           {
             "result": {
-              "duration": 1239618500,
+              "duration": 143809800,
               "status": "passed"
             },
-            "line": 14,
-            "name": "I enter quantity \"4\"",
+            "line": 42,
+            "name": "I enter password \"123456\"",
             "match": {
               "arguments": [
                 {
-                  "val": "4",
+                  "val": "123456",
                   "offset": 18
                 }
               ],
-              "location": "ProductPageSteps.iEnterQuantity(String)"
+              "location": "SignInSteps.iEnterPassword(String)"
             },
             "matchedColumns": [
               1
@@ -440,253 +776,53 @@
           },
           {
             "result": {
-              "duration": 76026000,
+              "duration": 21411937800,
               "status": "passed"
             },
-            "line": 15,
-            "name": "I select size \"S\"",
+            "line": 43,
+            "name": "I click on signin button",
             "match": {
-              "arguments": [
-                {
-                  "val": "S",
-                  "offset": 15
-                }
-              ],
-              "location": "ProductPageSteps.iSelectSize(String)"
-            },
-            "matchedColumns": [
-              2
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 105366200,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "I select color \"Green\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Green",
-                  "offset": 16
-                }
-              ],
-              "location": "ProductPageSteps.iSelectColor(String)"
-            },
-            "matchedColumns": [
-              3
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 82067700,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "I click on add to cart",
-            "match": {
-              "location": "ProductPageSteps.iClickOnAddToCart()"
+              "location": "SignInSteps.iClickOnSigninButton()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1336853600,
+              "duration": 6133505600,
               "status": "passed"
             },
-            "line": 18,
-            "name": "I close popup",
+            "line": 44,
+            "name": "I click on signout button",
             "match": {
-              "location": "ProductPageSteps.iClosePopup()"
+              "location": "SignInSteps.iClickOnSignoutButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49091900,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I can see sign in link again",
+            "match": {
+              "location": "SignInSteps.iCanSeeSignInLinkAgain()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "line": 9,
-            "name": "@smoke"
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 3465899200,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 25,
-        "name": "verify user should add product to the cart successfully",
-        "description": "",
-        "id": "women-category-page;verify-user-should-add-product-to-the-cart-successfully;;5",
-        "after": [
-          {
-            "result": {
-              "duration": 866547300,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.tearDown(Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 67800,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "I am on home page",
-            "match": {
-              "location": "SignInSteps.iAmOnHomePage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1473366800,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "I click on women tab",
-            "match": {
-              "location": "HomePageSteps.iClickOnWomenTab()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 21481626400,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "I select one \"Printed Summer Dress with Price $28.98\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Printed Summer Dress with Price $28.98",
-                  "offset": 14
-                }
-              ],
-              "location": "ProductPageSteps.iSelectOne(String)"
-            },
-            "matchedColumns": [
-              0
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1215536700,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "I enter quantity \"2\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "2",
-                  "offset": 18
-                }
-              ],
-              "location": "ProductPageSteps.iEnterQuantity(String)"
-            },
-            "matchedColumns": [
-              1
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 146177600,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "I select size \"M\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "M",
-                  "offset": 15
-                }
-              ],
-              "location": "ProductPageSteps.iSelectSize(String)"
-            },
-            "matchedColumns": [
-              2
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 108073500,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "I select color \"Blue\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Blue",
-                  "offset": 16
-                }
-              ],
-              "location": "ProductPageSteps.iSelectColor(String)"
-            },
-            "matchedColumns": [
-              3
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 92964300,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "I click on add to cart",
-            "match": {
-              "location": "ProductPageSteps.iClickOnAddToCart()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 613595100,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "I close popup",
-            "match": {
-              "location": "ProductPageSteps.iClosePopup()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 9,
-            "name": "@smoke"
+            "line": 37,
+            "name": "@regression"
           }
         ]
       }
     ],
-    "name": "Women category page",
-    "description": "As a user i should navigate to women category page and check products",
-    "id": "women-category-page",
+    "name": "SignIn Page",
+    "description": "As a user I should navigate to sign in page successful",
+    "id": "signin-page",
     "keyword": "Feature",
-    "uri": "womenCatagory.feature"
+    "uri": "signIn.feature"
   }
 ]

@@ -1,0 +1,132 @@
+2021-12-12 08:12:666 INFO  ManageDriver :32 - Launching chrome browser
+2021-12-12 08:12:700 INFO  HomePage :51 - clicking on sign In: [[ChromeDriver: chrome on WINDOWS (a6c2c0e545e834c908a788656404f86a)] -> css selector: a[title='Log in to your customer account']]
+2021-12-12 08:12:797 INFO  SignInPage :104 - verifying authentication txt : AUTHENTICATION
+2021-12-12 09:12:913 INFO  ManageDriver :32 - Launching chrome browser
+2021-12-12 09:12:73 INFO  HomePage :51 - clicking on sign In: [[ChromeDriver: chrome on WINDOWS (22378d11350cd16bd9ed64f4bc68f02f)] -> css selector: a[title='Log in to your customer account']]
+2021-12-12 09:12:273 INFO  SignInPage :57 - Entering email for new account user: [[ChromeDriver: chrome on WINDOWS (22378d11350cd16bd9ed64f4bc68f02f)] -> xpath: //input[@id='email_create']]
+2021-12-12 09:12:393 INFO  SignInPage :51 - clicking on create an account button: [[ChromeDriver: chrome on WINDOWS (22378d11350cd16bd9ed64f4bc68f02f)] -> css selector: button[id='SubmitCreate'] span]
+2021-12-12 09:12:570 INFO  CreateAccountPage :51 - Entering First Name : [[ChromeDriver: chrome on WINDOWS (22378d11350cd16bd9ed64f4bc68f02f)] -> css selector: #customer_firstname]
+2021-12-12 09:12:735 INFO  CreateAccountPage :57 - Entering Last Name: [[ChromeDriver: chrome on WINDOWS (22378d11350cd16bd9ed64f4bc68f02f)] -> css selector: #customer_lastname]
+2021-12-12 09:12:891 INFO  CreateAccountPage :63 - Entering Password : [[ChromeDriver: chrome on WINDOWS (22378d11350cd16bd9ed64f4bc68f02f)] -> css selector: #passwd]
+2021-12-12 09:12:176 INFO  CreateAccountPage :69 - Entering address : [[ChromeDriver: chrome on WINDOWS (22378d11350cd16bd9ed64f4bc68f02f)] -> css selector: #address1]
+2021-12-12 09:12:306 INFO  CreateAccountPage :74 - Entering city: Shrewsbury
+2021-12-12 09:12:900 INFO  CreateAccountPage :79 - Entering State: [[ChromeDriver: chrome on WINDOWS (22378d11350cd16bd9ed64f4bc68f02f)] -> css selector: #id_state]
+2021-12-12 09:12:12 INFO  CreateAccountPage :89 - Entering postcode: [[ChromeDriver: chrome on WINDOWS (22378d11350cd16bd9ed64f4bc68f02f)] -> css selector: #postcode]
+2021-12-12 09:12:99 INFO  CreateAccountPage :94 - Entering Country: [[ChromeDriver: chrome on WINDOWS (22378d11350cd16bd9ed64f4bc68f02f)] -> css selector: #id_country]
+2021-12-12 09:12:223 INFO  CreateAccountPage :84 - Entering Phone number: [[ChromeDriver: chrome on WINDOWS (22378d11350cd16bd9ed64f4bc68f02f)] -> css selector: #phone_mobile]
+2021-12-12 09:12:46 INFO  CreateAccountPage :99 - clicking on register button: Proxy element for: DefaultElementLocator 'By.cssSelector: button[id='submitAccount'] span'
+2021-12-12 10:12:860 INFO  ManageDriver :32 - Launching chrome browser
+2021-12-12 10:12:644 INFO  HomePage :35 - clicking on women button: [[ChromeDriver: chrome on WINDOWS (44f28b2d900281950e7070f262bc8f2b)] -> xpath: //a[@title='Women']]
+2021-12-12 10:12:709 INFO  WomenCategoryPage :42 - verifying text from women title: [[ChromeDriver: chrome on WINDOWS (44f28b2d900281950e7070f262bc8f2b)] -> xpath: //span[@class='navigation_page']]
+2021-12-12 10:12:295 INFO  ManageDriver :32 - Launching chrome browser
+2021-12-12 10:12:864 INFO  HomePage :35 - clicking on women button: [[ChromeDriver: chrome on WINDOWS (c4831bcd9453f0e6686daf1124929169)] -> xpath: //a[@title='Women']]
+2021-12-12 10:12:162 INFO  ProductPage :64 - clicking on blouse button: Proxy element for: DefaultElementLocator 'By.xpath: //a[normalize-space()='Blouse']'
+2021-12-12 10:12:243 INFO  ProductPage :96 - clearing value in quantity field : [[ChromeDriver: chrome on WINDOWS (c4831bcd9453f0e6686daf1124929169)] -> css selector: #quantity_wanted]
+2021-12-12 10:12:391 INFO  ProductPage :99 - Input quantity : [[ChromeDriver: chrome on WINDOWS (c4831bcd9453f0e6686daf1124929169)] -> css selector: #quantity_wanted]
+2021-12-12 10:12:571 INFO  ProductPage :105 - Selecting size: [[ChromeDriver: chrome on WINDOWS (c4831bcd9453f0e6686daf1124929169)] -> css selector: #group_1]
+2021-12-12 10:12:668 INFO  ProductPage :80 - clicking on white colour : [[ChromeDriver: chrome on WINDOWS (c4831bcd9453f0e6686daf1124929169)] -> xpath: //a[@id='color_8']]
+2021-12-12 10:12:755 INFO  ProductPage :110 - Clicking on add to cart button: [[ChromeDriver: chrome on WINDOWS (c4831bcd9453f0e6686daf1124929169)] -> css selector: button[name='Submit'] span]
+2021-12-12 10:12:731 INFO  ProductPage :119 - clicking on close button: [[ChromeDriver: chrome on WINDOWS (c4831bcd9453f0e6686daf1124929169)] -> xpath: //span[@title='Close window']]
+2021-12-12 10:12:657 INFO  ManageDriver :32 - Launching chrome browser
+2021-12-12 10:12:763 INFO  HomePage :35 - clicking on women button: [[ChromeDriver: chrome on WINDOWS (47f03fdace5d8b0358d24b58d7df1a84)] -> xpath: //a[@title='Women']]
+2021-12-12 10:12:357 INFO  ProductPage :67 - clicking on printed dress button: Proxy element for: DefaultElementLocator 'By.xpath: //a[normalize-space()='Printed Chiffon Dress']'
+2021-12-12 10:12:457 INFO  ProductPage :96 - clearing value in quantity field : [[ChromeDriver: chrome on WINDOWS (47f03fdace5d8b0358d24b58d7df1a84)] -> css selector: #quantity_wanted]
+2021-12-12 10:12:591 INFO  ProductPage :99 - Input quantity : [[ChromeDriver: chrome on WINDOWS (47f03fdace5d8b0358d24b58d7df1a84)] -> css selector: #quantity_wanted]
+2021-12-12 10:12:737 INFO  ProductPage :105 - Selecting size: [[ChromeDriver: chrome on WINDOWS (47f03fdace5d8b0358d24b58d7df1a84)] -> css selector: #group_1]
+2021-12-12 10:12:833 INFO  ProductPage :83 - clicking on orange color: [[ChromeDriver: chrome on WINDOWS (47f03fdace5d8b0358d24b58d7df1a84)] -> xpath: //a[@id='color_13']]
+2021-12-12 10:12:927 INFO  ProductPage :110 - Clicking on add to cart button: [[ChromeDriver: chrome on WINDOWS (47f03fdace5d8b0358d24b58d7df1a84)] -> css selector: button[name='Submit'] span]
+2021-12-12 10:12:815 INFO  ProductPage :119 - clicking on close button: [[ChromeDriver: chrome on WINDOWS (47f03fdace5d8b0358d24b58d7df1a84)] -> xpath: //span[@title='Close window']]
+2021-12-12 10:12:781 INFO  ManageDriver :32 - Launching chrome browser
+2021-12-12 10:12:590 INFO  HomePage :35 - clicking on women button: [[ChromeDriver: chrome on WINDOWS (86e8a01dd9255d8f82250d6fb2ed00b5)] -> xpath: //a[@title='Women']]
+2021-12-12 10:12:620 INFO  ProductPage :70 - clicking on printed chiffon button: Proxy element for: DefaultElementLocator 'By.xpath: //a[normalize-space()='Printed Chiffon Dress']'
+2021-12-12 10:12:738 INFO  ProductPage :96 - clearing value in quantity field : [[ChromeDriver: chrome on WINDOWS (86e8a01dd9255d8f82250d6fb2ed00b5)] -> css selector: #quantity_wanted]
+2021-12-12 10:12:874 INFO  ProductPage :99 - Input quantity : [[ChromeDriver: chrome on WINDOWS (86e8a01dd9255d8f82250d6fb2ed00b5)] -> css selector: #quantity_wanted]
+2021-12-12 10:12:939 INFO  ProductPage :105 - Selecting size: [[ChromeDriver: chrome on WINDOWS (86e8a01dd9255d8f82250d6fb2ed00b5)] -> css selector: #group_1]
+2021-12-12 10:12:62 INFO  ProductPage :86 - clicking on Green color: [[ChromeDriver: chrome on WINDOWS (86e8a01dd9255d8f82250d6fb2ed00b5)] -> xpath: //a[@id='color_15']]
+2021-12-12 10:12:144 INFO  ProductPage :110 - Clicking on add to cart button: [[ChromeDriver: chrome on WINDOWS (86e8a01dd9255d8f82250d6fb2ed00b5)] -> css selector: button[name='Submit'] span]
+2021-12-12 10:12:486 INFO  ProductPage :119 - clicking on close button: [[ChromeDriver: chrome on WINDOWS (86e8a01dd9255d8f82250d6fb2ed00b5)] -> xpath: //span[@title='Close window']]
+2021-12-12 10:12:472 INFO  ManageDriver :32 - Launching chrome browser
+2021-12-12 10:12:376 INFO  HomePage :35 - clicking on women button: [[ChromeDriver: chrome on WINDOWS (3a0cadeaf655141b16ffe132b1781d84)] -> xpath: //a[@title='Women']]
+2021-12-12 10:12:857 INFO  ProductPage :73 - clicking on summer dress button: Proxy element for: DefaultElementLocator 'By.xpath: (//a[@title='Printed Summer Dress'][normalize-space()='Printed Summer Dress'])[2]'
+2021-12-12 10:12:962 INFO  ProductPage :96 - clearing value in quantity field : [[ChromeDriver: chrome on WINDOWS (3a0cadeaf655141b16ffe132b1781d84)] -> css selector: #quantity_wanted]
+2021-12-12 10:12:86 INFO  ProductPage :99 - Input quantity : [[ChromeDriver: chrome on WINDOWS (3a0cadeaf655141b16ffe132b1781d84)] -> css selector: #quantity_wanted]
+2021-12-12 10:12:234 INFO  ProductPage :105 - Selecting size: [[ChromeDriver: chrome on WINDOWS (3a0cadeaf655141b16ffe132b1781d84)] -> css selector: #group_1]
+2021-12-12 10:12:343 INFO  ProductPage :89 - clicking on Blue color: [[ChromeDriver: chrome on WINDOWS (3a0cadeaf655141b16ffe132b1781d84)] -> xpath: //a[@id='color_14']]
+2021-12-12 10:12:438 INFO  ProductPage :110 - Clicking on add to cart button: [[ChromeDriver: chrome on WINDOWS (3a0cadeaf655141b16ffe132b1781d84)] -> css selector: button[name='Submit'] span]
+2021-12-12 10:12:55 INFO  ProductPage :119 - clicking on close button: [[ChromeDriver: chrome on WINDOWS (3a0cadeaf655141b16ffe132b1781d84)] -> xpath: //span[@title='Close window']]
+2021-12-13 10:12:228 INFO  ManageDriver :32 - Launching chrome browser
+2021-12-13 10:12:985 INFO  HomePage :35 - clicking on women button: [[ChromeDriver: chrome on WINDOWS (cdcf0f5a0d33a6a63cf4dd59b26b796f)] -> xpath: //a[@title='Women']]
+2021-12-13 10:12:06 INFO  ProductPage :64 - clicking on blouse button: Proxy element for: DefaultElementLocator 'By.xpath: //a[normalize-space()='Blouse']'
+2021-12-13 10:12:110 INFO  ProductPage :96 - clearing value in quantity field : [[ChromeDriver: chrome on WINDOWS (cdcf0f5a0d33a6a63cf4dd59b26b796f)] -> css selector: #quantity_wanted]
+2021-12-13 10:12:243 INFO  ProductPage :99 - Input quantity : [[ChromeDriver: chrome on WINDOWS (cdcf0f5a0d33a6a63cf4dd59b26b796f)] -> css selector: #quantity_wanted]
+2021-12-13 10:12:429 INFO  ProductPage :105 - Selecting size: [[ChromeDriver: chrome on WINDOWS (cdcf0f5a0d33a6a63cf4dd59b26b796f)] -> css selector: #group_1]
+2021-12-13 10:12:523 INFO  ProductPage :80 - clicking on white colour : [[ChromeDriver: chrome on WINDOWS (cdcf0f5a0d33a6a63cf4dd59b26b796f)] -> xpath: //a[@id='color_8']]
+2021-12-13 10:12:612 INFO  ProductPage :110 - Clicking on add to cart button: [[ChromeDriver: chrome on WINDOWS (cdcf0f5a0d33a6a63cf4dd59b26b796f)] -> css selector: button[name='Submit'] span]
+2021-12-13 10:12:515 INFO  ProductPage :119 - clicking on close button: [[ChromeDriver: chrome on WINDOWS (cdcf0f5a0d33a6a63cf4dd59b26b796f)] -> xpath: //span[@title='Close window']]
+2021-12-13 10:12:380 INFO  ManageDriver :32 - Launching chrome browser
+2021-12-13 10:12:664 INFO  HomePage :35 - clicking on women button: [[ChromeDriver: chrome on WINDOWS (b31afe1db6cd5d3891402d17557c5463)] -> xpath: //a[@title='Women']]
+2021-12-13 10:12:678 INFO  ProductPage :67 - clicking on printed dress button: Proxy element for: DefaultElementLocator 'By.xpath: //a[normalize-space()='Printed Chiffon Dress']'
+2021-12-13 10:12:800 INFO  ProductPage :96 - clearing value in quantity field : [[ChromeDriver: chrome on WINDOWS (b31afe1db6cd5d3891402d17557c5463)] -> css selector: #quantity_wanted]
+2021-12-13 10:12:965 INFO  ProductPage :99 - Input quantity : [[ChromeDriver: chrome on WINDOWS (b31afe1db6cd5d3891402d17557c5463)] -> css selector: #quantity_wanted]
+2021-12-13 10:12:129 INFO  ProductPage :105 - Selecting size: [[ChromeDriver: chrome on WINDOWS (b31afe1db6cd5d3891402d17557c5463)] -> css selector: #group_1]
+2021-12-13 10:12:210 INFO  ProductPage :83 - clicking on orange color: [[ChromeDriver: chrome on WINDOWS (b31afe1db6cd5d3891402d17557c5463)] -> xpath: //a[@id='color_13']]
+2021-12-13 10:12:284 INFO  ProductPage :110 - Clicking on add to cart button: [[ChromeDriver: chrome on WINDOWS (b31afe1db6cd5d3891402d17557c5463)] -> css selector: button[name='Submit'] span]
+2021-12-13 10:12:224 INFO  ProductPage :119 - clicking on close button: [[ChromeDriver: chrome on WINDOWS (b31afe1db6cd5d3891402d17557c5463)] -> xpath: //span[@title='Close window']]
+2021-12-13 10:12:100 INFO  ManageDriver :32 - Launching chrome browser
+2021-12-13 10:12:479 INFO  HomePage :35 - clicking on women button: [[ChromeDriver: chrome on WINDOWS (2546f916b77cb29b235ee275005529eb)] -> xpath: //a[@title='Women']]
+2021-12-13 10:12:228 INFO  ProductPage :70 - clicking on printed chiffon button: Proxy element for: DefaultElementLocator 'By.xpath: //a[normalize-space()='Printed Chiffon Dress']'
+2021-12-13 10:12:320 INFO  ProductPage :96 - clearing value in quantity field : [[ChromeDriver: chrome on WINDOWS (2546f916b77cb29b235ee275005529eb)] -> css selector: #quantity_wanted]
+2021-12-13 10:12:453 INFO  ProductPage :99 - Input quantity : [[ChromeDriver: chrome on WINDOWS (2546f916b77cb29b235ee275005529eb)] -> css selector: #quantity_wanted]
+2021-12-13 10:12:528 INFO  ProductPage :105 - Selecting size: [[ChromeDriver: chrome on WINDOWS (2546f916b77cb29b235ee275005529eb)] -> css selector: #group_1]
+2021-12-13 10:12:638 INFO  ProductPage :86 - clicking on Green color: [[ChromeDriver: chrome on WINDOWS (2546f916b77cb29b235ee275005529eb)] -> xpath: //a[@id='color_15']]
+2021-12-13 10:12:731 INFO  ProductPage :110 - Clicking on add to cart button: [[ChromeDriver: chrome on WINDOWS (2546f916b77cb29b235ee275005529eb)] -> css selector: button[name='Submit'] span]
+2021-12-13 10:12:525 INFO  ProductPage :119 - clicking on close button: [[ChromeDriver: chrome on WINDOWS (2546f916b77cb29b235ee275005529eb)] -> xpath: //span[@title='Close window']]
+2021-12-13 10:12:475 INFO  ManageDriver :32 - Launching chrome browser
+2021-12-13 10:12:280 INFO  HomePage :35 - clicking on women button: [[ChromeDriver: chrome on WINDOWS (8d8f8a582d30835ac27d7239dc5348f0)] -> xpath: //a[@title='Women']]
+2021-12-13 10:12:709 INFO  ProductPage :73 - clicking on summer dress button: Proxy element for: DefaultElementLocator 'By.xpath: (//a[@title='Printed Summer Dress'][normalize-space()='Printed Summer Dress'])[2]'
+2021-12-13 10:12:799 INFO  ProductPage :96 - clearing value in quantity field : [[ChromeDriver: chrome on WINDOWS (8d8f8a582d30835ac27d7239dc5348f0)] -> css selector: #quantity_wanted]
+2021-12-13 10:12:931 INFO  ProductPage :99 - Input quantity : [[ChromeDriver: chrome on WINDOWS (8d8f8a582d30835ac27d7239dc5348f0)] -> css selector: #quantity_wanted]
+2021-12-13 10:12:87 INFO  ProductPage :105 - Selecting size: [[ChromeDriver: chrome on WINDOWS (8d8f8a582d30835ac27d7239dc5348f0)] -> css selector: #group_1]
+2021-12-13 10:12:339 INFO  ManageDriver :32 - Launching chrome browser
+2021-12-13 10:12:702 INFO  HomePage :51 - clicking on sign In: [[ChromeDriver: chrome on WINDOWS (139fd6da08051fabdb7d323abb206cda)] -> css selector: a[title='Log in to your customer account']]
+2021-12-13 10:12:755 INFO  SignInPage :104 - verifying authentication txt : AUTHENTICATION
+2021-12-13 10:12:798 INFO  ManageDriver :32 - Launching chrome browser
+2021-12-13 10:12:479 INFO  HomePage :35 - clicking on women button: [[ChromeDriver: chrome on WINDOWS (0f6ae121871f94104167d83b54e6142f)] -> xpath: //a[@title='Women']]
+2021-12-13 10:12:543 INFO  WomenCategoryPage :42 - verifying text from women title: [[ChromeDriver: chrome on WINDOWS (0f6ae121871f94104167d83b54e6142f)] -> xpath: //span[@class='navigation_page']]
+2021-12-13 10:12:878 INFO  ManageDriver :32 - Launching chrome browser
+2021-12-13 10:12:482 INFO  HomePage :51 - clicking on sign In: [[ChromeDriver: chrome on WINDOWS (654bdc3f9dd3c065d93e18c657453ac8)] -> css selector: a[title='Log in to your customer account']]
+2021-12-13 10:12:613 INFO  SignInPage :63 - Entering email id: [[ChromeDriver: chrome on WINDOWS (654bdc3f9dd3c065d93e18c657453ac8)] -> xpath: //input[@id='email']]
+2021-12-13 10:12:780 INFO  SignInPage :69 - Entering password: [[ChromeDriver: chrome on WINDOWS (654bdc3f9dd3c065d93e18c657453ac8)] -> xpath: //input[@id='passwd']]
+2021-12-13 10:12:490 INFO  SignInPage :74 - click on sign in button: [[ChromeDriver: chrome on WINDOWS (654bdc3f9dd3c065d93e18c657453ac8)] -> xpath: //span[normalize-space()='Sign in']]
+2021-12-13 10:12:514 INFO  SignInPage :87 - clicking on register button: [[ChromeDriver: chrome on WINDOWS (654bdc3f9dd3c065d93e18c657453ac8)] -> css selector: div[class='alert alert-danger'] ol li]
+2021-12-13 10:12:433 INFO  ManageDriver :32 - Launching chrome browser
+2021-12-13 10:12:833 INFO  HomePage :51 - clicking on sign In: [[ChromeDriver: chrome on WINDOWS (022a840ade03bd31d0dcb3d1b8be7e61)] -> css selector: a[title='Log in to your customer account']]
+2021-12-13 10:12:47 INFO  SignInPage :63 - Entering email id: [[ChromeDriver: chrome on WINDOWS (022a840ade03bd31d0dcb3d1b8be7e61)] -> xpath: //input[@id='email']]
+2021-12-13 10:12:166 INFO  SignInPage :69 - Entering password: [[ChromeDriver: chrome on WINDOWS (022a840ade03bd31d0dcb3d1b8be7e61)] -> xpath: //input[@id='passwd']]
+2021-12-13 10:12:293 INFO  SignInPage :74 - click on sign in button: [[ChromeDriver: chrome on WINDOWS (022a840ade03bd31d0dcb3d1b8be7e61)] -> xpath: //span[normalize-space()='Sign in']]
+2021-12-13 10:12:311 INFO  SignInPage :87 - clicking on register button: [[ChromeDriver: chrome on WINDOWS (022a840ade03bd31d0dcb3d1b8be7e61)] -> css selector: div[class='alert alert-danger'] ol li]
+2021-12-13 10:12:641 INFO  ManageDriver :32 - Launching chrome browser
+2021-12-13 10:12:808 INFO  HomePage :51 - clicking on sign In: [[ChromeDriver: chrome on WINDOWS (3925f495f02fdf698d0f928e42689b43)] -> css selector: a[title='Log in to your customer account']]
+2021-12-13 10:12:959 INFO  SignInPage :63 - Entering email id: [[ChromeDriver: chrome on WINDOWS (3925f495f02fdf698d0f928e42689b43)] -> xpath: //input[@id='email']]
+2021-12-13 10:12:147 INFO  SignInPage :69 - Entering password: [[ChromeDriver: chrome on WINDOWS (3925f495f02fdf698d0f928e42689b43)] -> xpath: //input[@id='passwd']]
+2021-12-13 10:12:676 INFO  SignInPage :74 - click on sign in button: [[ChromeDriver: chrome on WINDOWS (3925f495f02fdf698d0f928e42689b43)] -> xpath: //span[normalize-space()='Sign in']]
+2021-12-13 10:12:701 INFO  SignInPage :87 - clicking on register button: [[ChromeDriver: chrome on WINDOWS (3925f495f02fdf698d0f928e42689b43)] -> css selector: div[class='alert alert-danger'] ol li]
+2021-12-13 10:12:60 INFO  ManageDriver :32 - Launching chrome browser
+2021-12-13 10:12:198 INFO  HomePage :51 - clicking on sign In: [[ChromeDriver: chrome on WINDOWS (79b148661d6f853da1ef1344631bfdb7)] -> css selector: a[title='Log in to your customer account']]
+2021-12-13 10:12:391 INFO  SignInPage :63 - Entering email id: [[ChromeDriver: chrome on WINDOWS (79b148661d6f853da1ef1344631bfdb7)] -> xpath: //input[@id='email']]
+2021-12-13 10:12:563 INFO  SignInPage :69 - Entering password: [[ChromeDriver: chrome on WINDOWS (79b148661d6f853da1ef1344631bfdb7)] -> xpath: //input[@id='passwd']]
+2021-12-13 10:12:539 INFO  SignInPage :74 - click on sign in button: [[ChromeDriver: chrome on WINDOWS (79b148661d6f853da1ef1344631bfdb7)] -> xpath: //span[normalize-space()='Sign in']]
+2021-12-13 10:12:560 INFO  SignInPage :87 - clicking on register button: [[ChromeDriver: chrome on WINDOWS (79b148661d6f853da1ef1344631bfdb7)] -> css selector: div[class='alert alert-danger'] ol li]
+2021-12-13 10:12:926 INFO  ManageDriver :32 - Launching chrome browser
+2021-12-13 10:12:749 INFO  HomePage :51 - clicking on sign In: [[ChromeDriver: chrome on WINDOWS (50aa9ba0dfe7a2b6953a5724a67bb7e3)] -> css selector: a[title='Log in to your customer account']]
+2021-12-13 10:12:927 INFO  SignInPage :63 - Entering email id: [[ChromeDriver: chrome on WINDOWS (50aa9ba0dfe7a2b6953a5724a67bb7e3)] -> xpath: //input[@id='email']]
+2021-12-13 10:12:62 INFO  SignInPage :69 - Entering password: [[ChromeDriver: chrome on WINDOWS (50aa9ba0dfe7a2b6953a5724a67bb7e3)] -> xpath: //input[@id='passwd']]
+2021-12-13 10:12:666 INFO  SignInPage :74 - click on sign in button: Proxy element for: DefaultElementLocator 'By.xpath: //span[normalize-space()='Sign in']'
+2021-12-13 10:12:729 INFO  SignInPage :93 - verifying sign out button is displayed: [[ChromeDriver: chrome on WINDOWS (50aa9ba0dfe7a2b6953a5724a67bb7e3)] -> xpath: //a[@title='Log me out']]
+2021-12-13 10:12:574 INFO  ManageDriver :32 - Launching chrome browser
+2021-12-13 10:12:817 INFO  HomePage :51 - clicking on sign In: [[ChromeDriver: chrome on WINDOWS (20b5bef8cef23f1f9853821040c3931a)] -> css selector: a[title='Log in to your customer account']]
+2021-12-13 10:12:995 INFO  SignInPage :63 - Entering email id: [[ChromeDriver: chrome on WINDOWS (20b5bef8cef23f1f9853821040c3931a)] -> xpath: //input[@id='email']]
+2021-12-13 10:12:130 INFO  SignInPage :69 - Entering password: [[ChromeDriver: chrome on WINDOWS (20b5bef8cef23f1f9853821040c3931a)] -> xpath: //input[@id='passwd']]
+2021-12-13 10:12:555 INFO  SignInPage :74 - click on sign in button: Proxy element for: DefaultElementLocator 'By.xpath: //span[normalize-space()='Sign in']'
+2021-12-13 10:12:694 INFO  SignInPage :98 - clicking on sign out button: [[ChromeDriver: chrome on WINDOWS (20b5bef8cef23f1f9853821040c3931a)] -> xpath: //a[@title='Log me out']]
+2021-12-13 10:12:745 INFO  HomePage :63 - Sign in link is displayed : [[ChromeDriver: chrome on WINDOWS (20b5bef8cef23f1f9853821040c3931a)] -> css selector: a[title='Log in to your customer account']]

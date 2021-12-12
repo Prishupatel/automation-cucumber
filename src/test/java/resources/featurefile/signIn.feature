@@ -1,11 +1,11 @@
 Feature: SignIn Page
   As a user I should navigate to sign in page successful
-
+@sanity
   Scenario: User should navigate to sign in page successfully
     Given I am on home page
     When  I click on sign in link
     Then  I navigate to sign in page successfully
-
+@regression
   Scenario Outline: Verify the error message with invalid credentials
     Given I am on home page
     When  I click on sign in link
@@ -21,7 +21,7 @@ Feature: SignIn Page
       | adfdfgfg       | 123456   | Invalid email address.     |
       | abcd@gmail.com | 123456   | Authentication failed.     |
 
-
+  @regression
   Scenario Outline: Verify user should login successfully with valid credentials
     Given I am on home page
     When I click on sign in link
@@ -34,7 +34,7 @@ Feature: SignIn Page
       | username               | pass   |
       | primetest123@gmail.com | 123456 |
 
-
+  @regression
   Scenario Outline: Verify user should Logout successfully
     Given I am on home page
     When I click on sign in link
